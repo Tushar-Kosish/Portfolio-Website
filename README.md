@@ -1,65 +1,55 @@
-# My Portfolio Website - Overview 🚀
+# Tushar Kosish - Personal Portfolio 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Welcome to my personal portfolio repository! This website showcases my projects, technical skills, and professional experience as a Full-Stack Developer and AI/ML Engineer. 
 
----
+Live Website: [Add Link Here]
 
-## ⚠️ Usage Notice
+## 🧑‍💻 About Me
+I am a driven and detail-oriented **B.Tech Artificial Intelligence & Machine Learning** student at Chandigarh Engineering College (CGC), Landran. I specialize in full-stack backend architecture and open-source development. 
 
-This project is shared for learning purposes only.
+I am a recognized open-source contributor selected for **GirlScript Summer of Code (GSSoC 2026)** and I am actively mastering Data Structures & Algorithms (DSA) to build highly optimized software solutions.
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+## 🛠️ Tech Stack
+This portfolio is built using modern web technologies, specifically highlighting my core competencies:
+- **Frontend & 3D**: React.js, Three.js, GSAP
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Languages & Automation**: Python, C++, JavaScript, TypeScript
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+## 🚀 Key Features
+- **Dynamic 3D Interactions**: Physics-based interactive skills section using Three.js and Rapier.
+- **Modern UI/UX**: Sleek dark mode design with glassmorphism elements and smooth GSAP scroll animations.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+- **Projects Showcase**: Detailed sections highlighting my e-commerce web applications and Python automation scripts.
 
-Build your own version — don’t just copy.
+## 💻 Local Setup
+To run this project locally on your machine, follow these steps:
 
-— Moncy Yohannan
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Tushar-Kosish/Portfolio-Website.git
+   cd Portfolio-Website
+   ```
 
----
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## 🛠️ Instructions
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+4. **View the site**
+   Open `http://localhost:5174` in your browser.
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 📫 Connect with Me
+- **LinkedIn**: [Tushar Kosish](https://www.linkedin.com/in/tushar-kosish-9345b73b8)
+- **Twitter/X**: [@Tusharkosish](https://x.com/Tusharkosish)
+- **GitHub**: [Tushar-Kosish](https://github.com/Tushar-Kosish)
+- **Instagram**: [@shar_pvt4](https://www.instagram.com/shar_pvt4)
+- **Email**: tusharkaushish2007@gmail.com
 
 ---
-
-## 📄 License
-
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+*Designed and Developed by **Tushar Kosish** in 2026.*

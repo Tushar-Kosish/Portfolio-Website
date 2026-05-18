@@ -58,13 +58,13 @@ const Work = () => {
               name: "E-Commerce Clones",
               category: "Web Application",
               tools: "MERN Stack, React.js, Node.js",
-              image: "/images/ecommerce.png"
+              image: "./images/ecommerce.png"
             },
             {
               name: "Automation Scripts",
               category: "Python Utility",
               tools: "Python, Algorithms, Automation Logic",
-              image: "/images/automation.png"
+              image: "./images/automation.png"
             }
           ].map((project, index) => (
             <div className="work-box" key={index}>

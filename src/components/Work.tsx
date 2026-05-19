@@ -55,16 +55,22 @@ const Work = () => {
         <div className="work-flex">
           {[
             {
-              name: "E-Commerce Clones",
-              category: "Web Application",
-              tools: "MERN Stack, React.js, Node.js",
-              image: "./images/ecommerce.png"
+              name: "AI Study Bot",
+              category: "AI Application",
+              tools: "RAG, FastAPI, Python, React",
+              image: "./images/ai_study_bot.png"
             },
             {
-              name: "Automation Scripts",
-              category: "Python Utility",
-              tools: "Python, Algorithms, Automation Logic",
-              image: "./images/automation.png"
+              name: "Task Management App",
+              category: "Web Application",
+              tools: "React, Socket.io, Express, PostgreSQL",
+              image: "./images/task_app.png"
+            },
+            {
+              name: "Weather Dashboard",
+              category: "Web Application",
+              tools: "React, API Integration, Charts, PWA",
+              image: "./images/weather_dash.png"
             }
           ].map((project, index) => (
             <div className="work-box" key={index}>

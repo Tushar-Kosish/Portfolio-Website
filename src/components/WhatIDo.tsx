@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -8,14 +7,17 @@ const WhatIDo = () => {
     containerRef.current[index] = el;
   };
   useEffect(() => {
-    if (ScrollTrigger.isTouch) {
-      containerRef.current.forEach((container) => {
-        if (container) {
-          container.classList.remove("what-noTouch");
-          container.addEventListener("click", () => handleClick(container));
+    containerRef.current.forEach((container, index) => {
+      if (container) {
+        container.classList.remove("what-noTouch");
+        if (index === 0) {
+          container.classList.add("what-content-active");
+        } else {
+          container.classList.add("what-sibling");
         }
-      });
-    }
+        container.addEventListener("click", () => handleClick(container));
+      }
+    });
     return () => {
       containerRef.current.forEach((container) => {
         if (container) {
@@ -151,7 +153,10 @@ const WhatIDo = () => {
 export default WhatIDo;
 
 function handleClick(container: HTMLDivElement) {
-  container.classList.toggle("what-content-active");
+  if (container.classList.contains("what-content-active")) {
+    return;
+  }
+  container.classList.add("what-content-active");
   container.classList.remove("what-sibling");
   if (container.parentElement) {
     const siblings = Array.from(container.parentElement.children);
@@ -159,7 +164,7 @@ function handleClick(container: HTMLDivElement) {
     siblings.forEach((sibling) => {
       if (sibling !== container) {
         sibling.classList.remove("what-content-active");
-        sibling.classList.toggle("what-sibling");
+        sibling.classList.add("what-sibling");
       }
     });
   }

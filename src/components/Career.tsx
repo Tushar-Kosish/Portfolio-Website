@@ -28,12 +28,12 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Open Source Contributor</h4>
-                <h5>GSSoC 2026</h5>
+                <h5>GSoC & GSSoC 2026</h5>
               </div>
               <h3>2026</h3>
             </div>
             <p>
-              Selected to contribute to real-world open-source software. Identified codebase inefficiencies, resolved structural bugs, and submitted optimized Pull Requests (PRs).
+              Contributed to high-impact open-source repositories. Successfully resolved codebase inefficiencies, developed modular backend APIs, optimized database schemas, and had multiple Pull Requests (PRs) merged focusing on robust automation scripts and web application stability.
             </p>
           </div>
           <div className="career-info-box">

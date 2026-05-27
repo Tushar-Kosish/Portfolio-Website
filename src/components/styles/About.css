@@ -70,6 +70,43 @@
   }
 }
 
+.github-snake-container {
+  margin-top: 35px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.github-snake-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--accentColor);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.github-snake-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #1a1522;
+  padding: 12px;
+  background-color: #0c090f;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github-snake-img:hover {
+  border-color: var(--accentColor);
+  box-shadow: 0 4px 20px rgba(194, 164, 255, 0.15);
+}
+
+@media only screen and (max-width: 1024px) {
+  .github-snake-container {
+    margin: 30px auto 0 auto;
+    max-width: 100%;
+  }
+}
+
 .about-email {
   display: inline-block;
   margin-top: 25px;

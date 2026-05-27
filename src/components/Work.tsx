@@ -55,22 +55,32 @@ const Work = () => {
         <div className="work-flex">
           {[
             {
-              name: "AI Study Bot",
-              category: "AI Application",
-              tools: "RAG, FastAPI, Python, React",
-              image: "./images/ai_study_bot.png"
+              name: "Draftdeckai",
+              category: "AI Document Platform",
+              tools: "React, TypeScript, AI Generation, Rollup",
+              image: "./images/ecommerce.png",
+              link: "https://github.com/Tushar-Kosish/Draftdeckai"
             },
             {
-              name: "Task Management App",
-              category: "Web Application",
-              tools: "React, Socket.io, Express, PostgreSQL",
-              image: "./images/task_app.png"
+              name: "ZerithDB",
+              category: "Database Engine",
+              tools: "TypeScript, Node.js, Custom Structures",
+              image: "./images/automation.png",
+              link: "https://github.com/Tushar-Kosish/ZerithDB"
             },
             {
-              name: "Weather Dashboard",
-              category: "Web Application",
-              tools: "React, API Integration, Charts, PWA",
-              image: "./images/weather_dash.png"
+              name: "Archo-tech",
+              category: "Creative Web App",
+              tools: "JavaScript, Custom DOM, CSS3",
+              image: "./images/ecommerce.png",
+              link: "https://github.com/Tushar-Kosish/Archo-tech"
+            },
+            {
+              name: "Portfolio-Website",
+              category: "Interactive 3D Portfolio",
+              tools: "Three.js, React-Three-Fiber, GSAP, Vite",
+              image: "./images/automation.png",
+              link: "https://github.com/Tushar-Kosish/Portfolio-Website"
             }
           ].map((project, index) => (
             <div className="work-box" key={index}>
@@ -86,7 +96,7 @@ const Work = () => {
                 <h4>Tools and features</h4>
                 <p>{project.tools}</p>
               </div>
-              <WorkImage image={project.image} alt={project.name} />
+              <WorkImage image={project.image} alt={project.name} link={project.link} />
             </div>
           ))}
         </div>

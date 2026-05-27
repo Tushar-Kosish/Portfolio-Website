@@ -99,11 +99,18 @@ const WhatIDo = () => {
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">React.js</div>
+                <div className="what-tags">Next.js</div>
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">Express.js</div>
+                <div className="what-tags">Django</div>
+                <div className="what-tags">FastAPI</div>
                 <div className="what-tags">MongoDB</div>
+                <div className="what-tags">MySQL</div>
                 <div className="what-tags">Git</div>
                 <div className="what-tags">GitHub</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">GCP</div>
+                <div className="what-tags">Expo</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -136,9 +143,15 @@ const WhatIDo = () => {
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
                 <div className="what-tags">C++</div>
+                <div className="what-tags">C</div>
+                <div className="what-tags">Java</div>
                 <div className="what-tags">Data Structures</div>
                 <div className="what-tags">Algorithms</div>
                 <div className="what-tags">Automation Logic</div>
+                <div className="what-tags">NumPy</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">PyTorch</div>
+                <div className="what-tags">TensorFlow</div>
                 <div className="what-tags">Scripting</div>
               </div>
               <div className="what-arrow"></div>

@@ -8,10 +8,14 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
+            <h4>Website Building & Freelance</h4>
+            <p className="contact-cta-desc">
+              Looking for a custom website, interactive 3D WebGL application, or autonomous AI solution? Let's bring your vision to life.
+            </p>
             <h4>Email</h4>
             <p>
-              <a href="mailto:tusharkaushish2007@gmail.com" data-cursor="disable">
-                tusharkaushish2007@gmail.com
+              <a href="mailto:tusharkosish6@gmail.com" data-cursor="disable">
+                tusharkosish6@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
@@ -22,34 +26,47 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Social & Community</h4>
             <a
               href="https://github.com/Tushar-Kosish"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/tushar-kosish-9345b73b8"
+              href="https://www.linkedin.com/in/tushar-k-6983883a6"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
             </a>
             <a
+              href="https://discord.gg/p5Y7MkNP"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Discord <MdArrowOutward />
+            </a>
+            <a
               href="https://x.com/Tusharkosish"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Twitter <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/shar_pvt4"
+              href="https://www.instagram.com/tusharkausish?stkn=YXlrazVrMnBoeXVy"
               target="_blank"
+              rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >

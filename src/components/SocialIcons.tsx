@@ -1,4 +1,5 @@
 import {
+  FaDiscord,
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
@@ -60,27 +61,32 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/Tushar-Kosish" target="_blank">
+          <a href="https://github.com/Tushar-Kosish" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/tushar-kosish-9345b73b8" target="_blank">
+          <a href="https://www.linkedin.com/in/tushar-k-6983883a6" target="_blank" rel="noreferrer">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/Tusharkosish" target="_blank">
+          <a href="https://discord.gg/p5Y7MkNP" target="_blank" rel="noreferrer">
+            <FaDiscord />
+          </a>
+        </span>
+        <span>
+          <a href="https://x.com/Tusharkosish" target="_blank" rel="noreferrer">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/shar_pvt4" target="_blank">
+          <a href="https://www.instagram.com/tusharkausish?stkn=YXlrazVrMnBoeXVy" target="_blank" rel="noreferrer">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="mailto:tusharkaushish2007@gmail.com">
+      <a className="resume-button" href="mailto:tusharkosish6@gmail.com">
         <HoverLinks text="EMAIL" />
         <span>
           <TbNotes />

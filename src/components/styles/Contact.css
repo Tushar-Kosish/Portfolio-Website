@@ -26,6 +26,14 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+.contact-cta-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 380px;
+  margin-top: 8px !important;
+  margin-bottom: 24px !important;
+}
 a.contact-social {
   font-size: 25px;
   border-bottom: 1px solid #ccc;

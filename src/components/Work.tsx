@@ -55,30 +55,37 @@ const Work = () => {
         <div className="work-flex">
           {[
             {
-              name: "Draftdeckai",
-              category: "AI Document Platform",
-              tools: "React, TypeScript, AI Generation, Rollup",
-              image: "./images/ecommerce.png",
-              link: "https://github.com/Tushar-Kosish/Draftdeckai"
-            },
-            {
-              name: "ZerithDB",
-              category: "Database Engine",
-              tools: "TypeScript, Node.js, Custom Structures",
+              name: "SmartEvacai",
+              category: "SIH Winner • Disaster Evacuation AI",
+              tools: "React, SAP BTP, Scenario Planning, Routing API, GIS Maps",
               image: "./images/automation.png",
-              link: "https://github.com/Tushar-Kosish/ZerithDB"
+              link: "https://github.com/Tushar-Kosish/SmartEvacai"
             },
             {
-              name: "Archo-tech",
-              category: "Creative Web App",
-              tools: "JavaScript, Custom DOM, CSS3",
+              name: "ArchoTech AI",
+              category: "AI Generative Architectural Studio",
+              tools: "Three.js (WebGL), HTML5 Canvas, Generative Design, ESG Engine",
               image: "./images/ecommerce.png",
               link: "https://github.com/Tushar-Kosish/Archo-tech"
             },
             {
-              name: "Portfolio-Website",
-              category: "Interactive 3D Portfolio",
-              tools: "Three.js, React-Three-Fiber, GSAP, Vite",
+              name: "Draftdeckai",
+              category: "AI Document & Content Suite",
+              tools: "React, TypeScript, AI Generation APIs, Rollup",
+              image: "./images/automation.png",
+              link: "https://github.com/Tushar-Kosish/Draftdeckai"
+            },
+            {
+              name: "ZerithDB",
+              category: "High-Performance Database Engine",
+              tools: "TypeScript, Node.js, Custom Storage B-Trees",
+              image: "./images/ecommerce.png",
+              link: "https://github.com/Tushar-Kosish/ZerithDB"
+            },
+            {
+              name: "3D Portfolio",
+              category: "Interactive WebGL Developer Site",
+              tools: "Three.js, React-Three-Fiber, GSAP, Vite, Glassmorphism",
               image: "./images/automation.png",
               link: "https://github.com/Tushar-Kosish/Portfolio-Website"
             }
